@@ -1,8 +1,5 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+# Landing Page - ReactJS
+
 
 This template is similar to create-react-app but it's meant for 4Geeks Academy students.
 

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Menu = ({ categoria }) => {
 	return (
@@ -9,5 +10,7 @@ const Menu = ({ categoria }) => {
 		</li>
 	);
 };
-
+Menu.propTypes = {
+	categoria: PropTypes.string
+};
 export default Menu;

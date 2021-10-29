@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Jumbotron = ({ mensaje }) => {
 	return (
@@ -22,6 +23,9 @@ const Jumbotron = ({ mensaje }) => {
 			</div>
 		</div>
 	);
+};
+Jumbotron.propTypes = {
+	mensaje: PropTypes.string
 };
 
 export default Jumbotron;
