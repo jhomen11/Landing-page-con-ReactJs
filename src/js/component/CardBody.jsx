@@ -21,7 +21,8 @@ export const CardBody = ({ titulo, img, btn }) => {
 
 CardBody.propTypes = {
 	titulo: PropTypes.string,
-	img: PropTypes.string
+	img: PropTypes.string,
+	btn: PropTypes.string
 };
 
 export default CardBody;
