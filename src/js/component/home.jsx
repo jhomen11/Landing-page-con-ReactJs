@@ -10,14 +10,7 @@ const Home = () => {
 		<div>
 			<Navegacion />
 			<Jumbotron mensaje="Landing Page" />
-			<div className="container">
-				<div className="row d-flex justify-content-center">
-					<Card titulo="Titulo1" />
-					<Card titulo="Titulo2" />
-					<Card titulo="Titulo3" />
-					<Card titulo="Titulo4" />
-				</div>
-			</div>
+			<Card />
 			<Footer autor="Jhonny Mendoza" />
 		</div>
 	);
