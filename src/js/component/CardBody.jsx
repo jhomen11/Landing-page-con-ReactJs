@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export const CardBody = ({ titulo, img }) => {
+export const CardBody = ({ titulo, img, btn }) => {
 	return (
 		<div className="card">
 			<img src={img} className="card-img-top" alt="..." />
@@ -11,7 +11,7 @@ export const CardBody = ({ titulo, img }) => {
 					Some quick example text to build on the card title and make
 					up the bulk of the {`card's`} content.
 				</p>
-				<a href="#" className="btn btn-primary">
+				<a href="#" className={btn}>
 					Go somewhere
 				</a>
 			</div>
